@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<script src="jquery.min.js"></script>
+		<script src="timer.js"></script>
+        <link rel="stylesheet" type="text/css" href="timer.css">
+        <title> Timer </title>
+    </head>
+
+    <body>
+		<div id="display-timer"><p id="timer">0:00:00:000</p></div>
+		<div id="timer-setting">
+			<input id="24hr" type="button" value="24hr" />
+			<input id="10min" type="button" value="10min" />
+			<input id="10s" type="button" value="10s" />
+			<br/>
+			<input id="1hr" type="button" value="1hr" />
+			<input id="1min" type="button" value="1min" />
+			<input id="1s" type="button" value="1s" />
+			<br/>
+			<input id="10ms" type="button" value="10ms" />
+			<input id="reset-time" type="button" value="Reset" />
+			<input id="confirm" type="button" value="Confirm" />
+		</div>
+		<div id="count-setting">
+			<input id="start" type="button" value="Start" disabled />
+			<input id="stop" type="button" value="Stop" disabled />
+			<input id="reset-count" type="button" value="Reset" disabled />
+			<br/>
+			<input id="back" type="button" value="Back" disabled />
+		</div>
+    </body>
+</html>

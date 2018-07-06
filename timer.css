@@ -1,0 +1,53 @@
+html {
+    position: relative;
+    min-width: 430px;
+	max-width: 430px;
+    min-height: 320px;
+	max-height: 320px;
+    height: 100%;
+}
+
+#display-timer {
+	width: 25em;
+	height: 4em;
+	background-color: #27b9da;
+	border: none;
+	color: white;
+	text-align: center;
+	font-family: monospace;
+	font-size: 16px;
+	margin: 4px 2px;
+	display: inline-block;
+}
+
+#timer {
+	margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 32px;
+}
+
+#count-setting {
+	display: none;
+}
+
+input[type=button] {
+	width: 8em;
+	height: 4em;
+	background-color: #f4511e;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+input[type=button]:hover {opacity: 1}
